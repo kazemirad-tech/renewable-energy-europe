@@ -13,4 +13,4 @@ print(df.head())
 if 'Quantity' in df.columns:
     df['Quantity'].plot(figsize=(10,4), title='Sample energy trend')
     plt.show()
-feat: add week_01_load_data script
+
